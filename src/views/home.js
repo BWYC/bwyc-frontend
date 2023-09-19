@@ -89,16 +89,16 @@ const Home = (props) => {
                     rel="noreferrer noopener"
                     className="home-link1 nav-link"
                   >
-                    HOME
+                    🪸HOME
                   </a>
                   <a href="#mint" className="home-link2 nav-link">
-                    WHALECARDS
+                    🎴WHALECARDS
                   </a>
-                  <span className="nav-link">MEMBERS</span>
-                  <span className="nav-link">ORDINALS</span>
+                  <span className="nav-link">🐋MEMBERS</span>
+                  <span className="nav-link">🎭ORDINALS</span>
                 </div>
                 <button className="start-button button home-button2">
-                  <span className="home-text08">Connect</span>
+                  <span className="home-text08">CONNECT</span>
                 </button>
               </div>
             </div>

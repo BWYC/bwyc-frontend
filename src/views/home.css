@@ -2157,7 +2157,7 @@
 }
 @media(max-width: 479px) {
   .home-navbar-interactive {
-    width: 304px;
+    width: 326px;
   }
   .home-logo {
     width: 83px;
@@ -2186,17 +2186,21 @@
     font-style: normal;
     font-weight: 500;
   }
+  .home-link1 {
+    text-decoration: none;
+  }
+  .home-link2 {
+    text-decoration: none;
+  }
   .home-button2 {
+    color: var(--dl-color-gray-black);
     border-color: #ffffff;
     border-width: 1px;
     border-radius: var(--dl-radius-radius-radius8);
-    background-color: rgba(254, 106, 5, 0.97);
+    background-color: rgba(208, 205, 203, 0.97);
   }
   .home-text08 {
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: 500;
-    line-height: 16px;
+    color: rgb(0, 0, 0);
   }
   .home-hero {
     height: 660px;
@@ -2418,7 +2422,7 @@
     padding-left: 0px;
   }
   .home-iframe {
-    width: 278px;
+    width: 289px;
     height: 100%;
   }
   .home-icon14 {
