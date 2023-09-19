@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 
-import { Helmet } from 'react-helmet'
+import { Helmet } from "react-helmet";
 
-import './ordinals.css'
+import "./ordinals.css";
 
-import App1  from "../App"
+import App1 from "../App";
 
 const Ordinals = (props) => {
   return (
@@ -15,7 +15,7 @@ const Ordinals = (props) => {
       </Helmet>
       <App1 />
     </div>
-  )
-}
+  );
+};
 
-export default Ordinals
+export default Ordinals;

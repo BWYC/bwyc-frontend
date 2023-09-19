@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
 
-import { Helmet } from 'react-helmet'
+import { Helmet } from "react-helmet";
 
-import Link from '../components/link'
-import './home.css'
+import Link from "../components/link";
+import "./home.css";
+import Ordinals from "./ordinals";
 
 const Home = (props) => {
   return (
@@ -40,7 +41,9 @@ const Home = (props) => {
                 >
                   <path d="M666.857 365.714c7.429 76-24.571 121.714-74.857 147.429 83.429 20 136 69.714 125.714 181.143-13.143 138.857-116 176-263.429 184v145.714h-88v-143.429c-22.286 0-45.714 0-69.714-0.571v144h-88v-145.714c-20.571 0-41.143-0.571-62.286-0.571h-114.286l17.714-104.571c64.571 1.143 63.429 0 63.429 0 24.571 0 31.429-17.714 33.143-29.143v-229.714h9.143c-3.429-0.571-6.857-0.571-9.143-0.571v-164c-3.429-18.286-14.857-38.857-50.857-38.857 0 0 1.143-1.143-63.429 0v-93.714l121.143 0.571c17.714 0 36.571 0 55.429-0.571v-144h88v141.143c23.429-0.571 46.857-1.143 69.714-1.143v-140h88v144c113.143 9.714 202.857 44.571 212.571 148.571zM544 677.143c0-113.143-186.286-96.571-245.714-96.571v193.143c59.429 0 245.714 12.571 245.714-96.571zM503.429 405.143c0-103.429-155.429-88-205.143-88v175.429c49.714 0 205.143 11.429 205.143-87.429z"></path>
                 </svg>
-                <span className="home-text02 nav-link">ORDINALS</span>
+                <a href="/ordinals" className="home-text02 nav-link">
+                  ORDINALS
+                </a>
                 <svg
                   viewBox="0 0 1097.142857142857 1024"
                   className="home-icon06"
@@ -95,7 +98,9 @@ const Home = (props) => {
                     🎴WHALECARDS
                   </a>
                   <span className="nav-link">🐋MEMBERS</span>
-                  <span className="nav-link">🎭ORDINALS</span>
+                  <a className="nav-link" href="/ordinals">
+                    🎭ORDINALS
+                  </a>
                 </div>
                 <button className="start-button button home-button2">
                   <span className="home-text08">CONNECT</span>
@@ -143,6 +148,7 @@ const Home = (props) => {
           join the club. 
         </p>
       </header>
+      <Ordinals />
       <div className="home-video">
         <div className="home-container05">
           <button className="home-button3 start-button button">
@@ -384,7 +390,9 @@ const Home = (props) => {
               </div>
               <div className="home-item6 service">
                 <div className="home-details09">
-                  <span className="home-text35">Ordinals</span>
+                  <a className="home-text35" href="/ordinals">
+                    Ordinals
+                  </a>
                   <span className="home-text36">
                     BWYC will also cross chains to Bitcoin and allow Holders to
                     Inscribe Ordinals Numbers to metadata of EVM NFT. Like
@@ -479,7 +487,7 @@ const Home = (props) => {
         />
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

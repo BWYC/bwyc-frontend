@@ -9,7 +9,6 @@ import {
 import { useLocalStorage } from "./useLocalStorage";
 
 import { useEffect, useState } from "react";
-import "./App.css";
 
 function App1() {
   const [paymentAddress, setPaymentAddress] = useLocalStorage("paymentAddress");
@@ -135,16 +134,46 @@ function App1() {
   if (!isReady) {
     return (
       <div style={{ padding: 30 }}>
-        <h1>Sats Connect Test App - {network}</h1>
-        <div>Please connect your wallet to continue</div>
+        <h1 style={{ color: "white" }}>
+          BWYC CrossChain - <h3 style={{ color: "orange" }}>{network}</h3>
+        </h1>
+        <div style={{ color: "white" }}>
+          Please connect your wallet to continue
+        </div>
 
-        <div style={{ background: "lightgray", padding: 30, marginTop: 10 }}>
-          <button style={{ height: 30, width: 180 }} onClick={toggleNetwork}>
+        <div
+          style={{
+            background: "#344",
+            padding: 30,
+            marginTop: 10,
+            borderRadius: "26px",
+            width: "100%",
+            border: "solid",
+            borderColor: "orange",
+          }}
+        >
+          <button
+            style={{
+              height: 40,
+              width: 180,
+              border: "solid",
+              borderRadius: "8px",
+            }}
+            onClick={toggleNetwork}
+          >
             Switch Network
           </button>
           <br />
           <br />
-          <button style={{ height: 30, width: 180 }} onClick={onConnectClick}>
+          <button
+            style={{
+              height: 40,
+              width: 180,
+              border: "solid",
+              borderRadius: "8px",
+            }}
+            onClick={onConnectClick}
+          >
             Connect
           </button>
         </div>
@@ -154,15 +183,54 @@ function App1() {
 
   return (
     <div style={{ padding: 30 }}>
-      <h1>Sats Connect Test App - {network}</h1>
-      <div>
-        <div>Payment Address: {paymentAddress}</div>
-        <div>Ordinals Address: {ordinalsAddress}</div>
+      <h3
+        style={{
+          color: "white",
+          marginBottom: "5%",
+          marginLeft: "20%",
+          fontFamily: "courier",
+        }}
+      >
+        BWYC CrossChain - {network}
+      </h3>
+      <div style={{ width: "auto" }}>
+        <div
+          style={{
+            color: "white",
+            fontFamily: "PT Mono",
+            width: "auto",
+            marginLeft: "20%",
+          }}
+        >
+          Payment Address: <p style={{ color: "orange" }}> {paymentAddress}</p>
+        </div>
+        <hr></hr>
+        <div
+          style={{ color: "white", fontFamily: "PT Mono", marginLeft: "20%" }}
+        >
+          Ordinals Address:
+          <p style={{ color: "orange", overflow: "hidden" }}>
+            {" "}
+            {ordinalsAddress}
+          </p>
+        </div>
         <br />
 
-        <div className="container">
-          <h3>Disconnect wallet</h3>
-          <button onClick={onWalletDisconnect}>Disconnect</button>
+        <div style={{ marginLeft: "30%" }}>
+          <h3 style={{ color: "white" }}>Disconnect wallet</h3>
+          <button
+            style={{
+              height: 40,
+              width: 180,
+              border: "solid",
+              padding: "2%",
+              borderRadius: "8px",
+              color: "white",
+            }}
+            onClick={onWalletDisconnect}
+          >
+            Disconnect
+          </button>
         </div>
       </div>
     </div>

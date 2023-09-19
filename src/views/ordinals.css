@@ -2,8 +2,8 @@
   width: 100%;
   display: flex;
   overflow: auto;
-  min-height: 100vh;
   align-items: center;
   flex-direction: column;
   background-color: #000000;
+  overflow-x: scroll;
 }
