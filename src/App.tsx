@@ -125,7 +125,7 @@ function App1() {
   if (capabilityMessage) {
     return (
       <div style={{ padding: 30 }}>
-        <h1>Sats Connect Test App - {network}</h1>
+        <h1 style={{ color: "white" }}>BWYC CrossChain - {network}</h1>
         <div>{capabilityMessage}</div>
       </div>
     );
