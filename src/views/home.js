@@ -278,7 +278,7 @@ const Home = (props) => {
           </span>
         </div>
         <div className="home-statistics">
-          <span className="home-text20">stats</span>
+          <span className="home-text20">STATS</span>
           <div className="home-statistic-list">
             <div className="home-statistic">
               <span className="home-sta">MINTED WHALES</span>
@@ -323,7 +323,7 @@ const Home = (props) => {
               <div className="home-item service">
                 <div className="home-details03">
                   <span className="home-text22">Launchpad </span>
-                  <span className="home-text23">
+                  <span className="home-text25">
                     Community minting of 10000 whales on youngparrtot
                   </span>
                 </div>
