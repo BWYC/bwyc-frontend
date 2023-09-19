@@ -120,9 +120,15 @@ const Home = (props) => {
                     🎭ORDINALS
                   </a>
                 </div>
-                <button className="start-button button home-button2">
-                  <ConnectWallet />
-                </button>
+                <ConnectWallet
+                  style={{
+                    backgroundColor: "black",
+                    color: "white",
+                    borderColor: "white",
+                    border: "solid",
+                  }}
+                  theme="balck"
+                />
               </div>
             </div>
           </div>
