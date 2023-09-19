@@ -1,0 +1,20 @@
+.client-client {
+  gap: var(--dl-space-space-threeunits);
+  width: 450px;
+  display: flex;
+  position: relative;
+  border-color: #ffffff;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  border-bottom-width: 1px;
+}
+.client-div {
+  display: contents;
+}
+@media(max-width: 991px) {
+  .client-client {
+    gap: var(--dl-space-space-unit);
+    width: 100%;
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}

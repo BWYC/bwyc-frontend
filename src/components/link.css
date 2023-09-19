@@ -1,0 +1,30 @@
+.link-caption {
+  color: #b7b5b5;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.link-icon {
+  fill: #D9D9D9;
+  width: 24px;
+}
+
+
+
+@media(max-width: 991px) {
+  .link-caption {
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .link-root-class-name1 {
+    background-color: #565454;
+  }
+  .link-root-class-name2 {
+    background-color: #565454;
+  }
+  .link-root-class-name {
+    background-color: #565454;
+  }
+}
