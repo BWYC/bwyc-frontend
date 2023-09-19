@@ -89,7 +89,7 @@ function App1() {
     await getAddress({
       payload: {
         purposes: [AddressPurpose.Ordinals, AddressPurpose.Payment],
-        message: "SATS Connect Demo",
+        message: "BWYC Testnet",
         network: {
           type: network,
         },
@@ -209,10 +209,7 @@ function App1() {
           style={{ color: "white", fontFamily: "PT Mono", marginLeft: "20%" }}
         >
           Ordinals Address:
-          <p style={{ color: "orange", overflow: "hidden" }}>
-            {" "}
-            {ordinalsAddress}
-          </p>
+          <p style={{ color: "orange" }}> {ordinalsAddress}</p>
         </div>
         <br />
 
