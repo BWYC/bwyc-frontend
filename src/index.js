@@ -11,6 +11,7 @@ const App = () => {
     <Router>
       <div>
         <Route component={Home} exact path="/" />
+        <Route component={NotFound} path="**" />
       </div>
     </Router>
   )
