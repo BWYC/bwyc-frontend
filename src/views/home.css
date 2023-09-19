@@ -28,8 +28,9 @@
   padding-left: var(--dl-space-space-oneandhalfunits);
   border-radius: var(--dl-radius-radius-radius8);
   padding-right: var(--dl-space-space-oneandhalfunits);
+  backdrop-filter: blur(10px);
   justify-content: space-between;
-  background-color: rgba(217, 217, 217, 0);
+  background-color: rgba(6, 6, 6, 0.34);
   border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
