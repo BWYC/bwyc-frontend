@@ -126,7 +126,7 @@ function App1() {
     return (
       <div style={{ padding: 30 }}>
         <h1 style={{ color: "white" }}>BWYC CrossChain - {network}</h1>
-        <div>{capabilityMessage}</div>
+        <div style={{ color: "white" }}>{capabilityMessage}</div>
       </div>
     );
   }
