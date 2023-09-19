@@ -10,12 +10,16 @@
     "declaration": true,
     "sourceMap": true,
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    "forceConsistentCasingInFileNames": false,
+    "strict": false,
     "useUnknownInCatchVariables": false,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "allowUnreachableCode": false,
     "skipLibCheck": true,
-    "assert": false
+    "assert": false,
+    "http": false,
+    "https": false,
+    "zlib": false,
+    "url": false
   }
 }
