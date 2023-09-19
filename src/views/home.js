@@ -152,7 +152,8 @@ const Home = (props) => {
           join the club. 
         </p>
       </header>
-      <Ordinals id="sats" />
+      <div id="sats"></div>
+      <Ordinals />
       <div className="home-video">
         <div className="home-container05">
           <button className="home-button3 start-button button">
