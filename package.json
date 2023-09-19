@@ -16,7 +16,8 @@
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^5.2.0",
-    "sats-connect": "^1.1.1"
+    "sats-connect": "^1.1.1",
+    "typescript": "^5.2.2"
   },
   "scripts": {
     "start": "craco start",
