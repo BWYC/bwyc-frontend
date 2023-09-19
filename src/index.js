@@ -4,13 +4,14 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import "./style.css";
 import Home from "./views/home";
-import NotFound from "./views/not-found";
+import Ordinals from "./views/ordinals";
 
 const App = () => {
   return (
     <Router>
       <div>
         <Route component={Home} exact path="/" />
+        <Route component={Ordinals} exact path="/ordinals" />
       </div>
     </Router>
   );
