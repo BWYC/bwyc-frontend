@@ -9,6 +9,7 @@
     "@thirdweb-dev/react": "^3.15.0",
     "@thirdweb-dev/sdk": "^3.10.61",
     "@types/gettext.js": "^1.0.0",
+    "assert": "^2.1.0",
     "dangerous-html": "0.1.13",
     "ethers": "^5.7.2",
     "prop-types": "15.7.2",
