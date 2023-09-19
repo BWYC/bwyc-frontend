@@ -285,7 +285,7 @@ const Home = (props) => {
                 <div className="home-details03">
                   <span className="home-text24">Launchpad </span>
                   <span className="home-text25">
-                    Community minting of 10000 whales on youngparrto
+                    Community minting of 10000 whales on youngparrtot
                   </span>
                 </div>
                 <svg viewBox="0 0 1024 1024" className="home-icon14">
