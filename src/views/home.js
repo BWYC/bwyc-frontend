@@ -183,8 +183,12 @@ const Home = (props) => {
             <div className="home-details">
               <div className="home-header2">
                 <div className="home-heading">
-                  <span className="home-text10">STAKE BWYC</span>
-                  <Link rootClassName="link-root-class-name"></Link>
+                  <a
+                    href="https://stake.boredwhalesyachtclub.org"
+                    className="home-text10"
+                  >
+                    STAKE BWYC
+                  </a>
                 </div>
                 <span className="home-text11">
                   <span className="home-text12">
@@ -199,10 +203,20 @@ const Home = (props) => {
               </div>
               <div className="home-tags">
                 <div className="home-container06">
-                  <span className="home-tag tag">About Staking</span>
+                  <a
+                    href="https://stake.boredwhalesyachtclub.org/stake"
+                    className="home-tag tag"
+                  >
+                    About Staking
+                  </a>
                 </div>
                 <div className="home-container07">
-                  <span className="home-tag1 tag">Strategy</span>
+                  <a
+                    href="https://app.youngparrotnft.com/core/launchpads/bwyc"
+                    className="home-tag1 tag"
+                  >
+                    MINT
+                  </a>
                 </div>
               </div>
             </div>
@@ -229,10 +243,17 @@ const Home = (props) => {
               </div>
               <div className="home-tags1">
                 <div className="home-container08">
-                  <span className="home-tag2 tag">About Cards</span>
+                  <a
+                    href="https://stake.boredwhalesyachtclub.org/stake2"
+                    className="home-tag tag"
+                  >
+                    About Staking
+                  </a>
                 </div>
                 <div className="home-container09">
-                  <span className="home-tag3 tag">Strategy</span>
+                  <a className="home-tag3 tag" href="#mint">
+                    MINT
+                  </a>
                 </div>
               </div>
             </div>
@@ -282,29 +303,37 @@ const Home = (props) => {
           <span className="home-text20">STATS</span>
           <div className="home-statistic-list">
             <div className="home-statistic">
-              <span className="home-sta">MINTED WHALES</span>
-              <span className="home-sta01">4,501</span>
+              <span className="home-sta">MINTED WHALES🐋</span>
+              <span className="home-sta01">4,503</span>
             </div>
             <div className="home-statistic1">
-              <span className="home-sta02">HOLDERS</span>
-              <span className="home-sta03">92</span>
+              <span className="home-sta02">HOLDERS💎</span>
+              <span className="home-sta03">93</span>
             </div>
             <div className="home-statistic2">
-              <span className="home-sta04">TRANSFERS</span>
-              <span className="home-sta05">9,871</span>
+              <span className="home-sta04">TRANSFERS⚡</span>
+              <span className="home-sta05">9,873</span>
             </div>
             <div className="home-statistic3">
-              <span className="home-sta06">CLAIMED CARDS</span>
+              <span className="home-sta06">CLAIMED CARDS🎴</span>
               <span className="home-sta07">804</span>
             </div>
             <div className="home-statistic4">
-              <span className="home-sta08">STAKED WHALES</span>
+              <span className="home-sta08">STAKED WHALES🐳</span>
               <span className="home-sta09">3,916</span>
             </div>
             <div className="home-statistic5">
-              <span className="home-sta10">$WHLS HOLDERS</span>
+              <span className="home-sta10">$WHLS HOLDERS🚀</span>
               <span className="home-sta11">69</span>
             </div>
+            <button className="home-button4 start-button button">
+              <a
+                href="https://scan.coredao.org/token/0x0c9d4b90771aca4b3e541924545e36104751dada"
+                className="home-text50"
+              >
+                VIEW ON CORESCAN
+              </a>
+            </button>
           </div>
         </div>
         <div className="home-container12">
