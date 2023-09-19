@@ -5,6 +5,14 @@ import { Helmet } from "react-helmet";
 import Link from "../components/link";
 import "./home.css";
 import Ordinals from "./ordinals";
+import {
+  ThirdwebNftMedia,
+  useAddress,
+  useContract,
+  useMetamask,
+  useNFTs,
+  ConnectWallet,
+} from "@thirdweb-dev/react";
 
 const Home = (props) => {
   return (
@@ -57,14 +65,20 @@ const Home = (props) => {
                 <span className="home-text03 nav-link">MEMBERS</span>
               </div>
             </a>
-            <button className="home-button start-button button">
-              <span className="home-text04">WHALE CONNECT</span>
-            </button>
+            <ConnectWallet
+              style={{
+                backgroundColor: "black",
+                color: "white",
+                borderColor: "white",
+                border: "solid",
+              }}
+              theme="balck"
+            />
           </div>
           <div data-thq="thq-burger-menu" className="home-burger-menu">
             <button className="home-button1 button">
               <img alt="image" src="/hamburger.svg" className="home-image" />
-              <span className="home-text05">Start a project</span>
+              <span className="home-text05"></span>
             </button>
           </div>
           <div data-thq="thq-mobile-menu" className="home-mobile-menu">
@@ -107,7 +121,7 @@ const Home = (props) => {
                   </a>
                 </div>
                 <button className="start-button button home-button2">
-                  <span className="home-text08">CONNECT</span>
+                  <ConnectWallet />
                 </button>
               </div>
             </div>
