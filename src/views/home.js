@@ -30,11 +30,15 @@ const Home = (props) => {
                 <svg viewBox="0 0 1024 1024" className="home-icon">
                   <path d="M1024 590.444l-512-397.426-512 397.428v-162.038l512-397.426 512 397.428zM896 576v384h-256v-256h-256v256h-256v-384l384-288z"></path>
                 </svg>
-                <span className="home-text nav-link">HOME</span>
+                <a href="/" className="home-text nav-link">
+                  HOME
+                </a>
                 <svg viewBox="0 0 1024 1024" className="home-icon02">
                   <path d="M817.57 348.15c-193.566-143.858-260.266-259.018-305.566-348.148v0c-0.004 0-0.004-0.002-0.004-0.002v0.002c-45.296 89.13-112 204.292-305.566 348.148-330.036 245.286-19.376 587.668 253.758 399.224-17.796 116.93-78.53 202.172-140.208 238.882v37.744h384.032v-37.74c-61.682-36.708-122.41-121.954-140.212-238.884 273.136 188.446 583.8-153.94 253.766-399.226z"></path>
                 </svg>
-                <span className="home-text01 nav-link">WHALECARD</span>
+                <a href="/#mint" className="home-text01 nav-link">
+                  WHALECARD
+                </a>
                 <svg
                   viewBox="0 0 760.0274285714286 1024"
                   className="home-icon04"
