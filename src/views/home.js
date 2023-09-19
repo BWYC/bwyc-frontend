@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import Link from '../components/link'
@@ -275,112 +274,9 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-clients">
-          <div className="home-header6">
-            <h2 className="home-title2 heading">Members on X</h2>
-          </div>
-          <div className="home-grid">
-            <div className="home-column">
-              <div className="home-client">
-                <div className="home-div">
-                  <React.Fragment>
-                    <React.Fragment>
-                      <blockquote className="twitter-tweet">
-                        <p lang="en" dir="ltr">
-                          The Future is here, Join the Moving Train NOW..{' '}
-                          <a href="https://twitter.com/search?q=%24WHLS&src=ctag&ref_src=twsrc%5Etfw">
-                            \$WHLS
-                          </a>{' '}
-                          <a href="https://twitter.com/hashtag/BWYC?src=hash&ref_src=twsrc%5Etfw">
-                            #BWYC
-                          </a>
-                          . mint a Bored Whale Yacht Club NFT at{' '}
-                          <a href="https://t.co/p5GjRooDY7">
-                            https://t.co/p5GjRooDY7
-                          </a>{' '}
-                          Stake this Masterpiece to receive{' '}
-                          <a href="https://twitter.com/search?q=%24WHLS&src=ctag&ref_src=twsrc%5Etfw">
-                            \$WHLS
-                          </a>{' '}
-                          Utility tokens .
-                          <a href="https://t.co/z6v6OTcWBp">
-                            https://t.co/z6v6OTcWBp
-                          </a>
-                          <a href="https://twitter.com/hashtag/BWYC?src=hash&ref_src=twsrc%5Etfw">
-                            #BWYC
-                          </a>
-                          <a href="https://twitter.com/hashtag/WHLS?src=hash&ref_src=twsrc%5Etfw">
-                            #WHLS
-                          </a>
-                          <a href="https://twitter.com/hashtag/NFTCommunity?src=hash&ref_src=twsrc%5Etfw">
-                            #NFTCommunity
-                          </a>{' '}
-                          <a href="https://twitter.com/hashtag/BTC?src=hash&ref_src=twsrc%5Etfw">
-                            #BTC
-                          </a>{' '}
-                          <a href="https://twitter.com/hashtag/WHALEONWAVE?src=hash&ref_src=twsrc%5Etfw">
-                            #WHALEONWAVE
-                          </a>{' '}
-                          <a href="https://t.co/nyUpkdJyct">
-                            pic.twitter.com/nyUpkdJyct
-                          </a>
-                        </p>
-                        — C ANGLO (@mmaglo2){' '}
-                        <a href="https://twitter.com/mmaglo2/status/1699062518545777056?ref_src=twsrc%5Etfw">
-                          September 5, 2023
-                        </a>
-                      </blockquote>{' '}
-                      <Script
-                        async={true}
-                        src="https://platform.twitter.com/widgets.js"
-                        charSet="utf-8"
-                      />{' '}
-                    </React.Fragment>
-                  </React.Fragment>
-                </div>
-                <div className="home-div1">
-                  <React.Fragment>
-                    <React.Fragment>
-                      <blockquote className="twitter-tweet">
-                        <p lang="en" dir="ltr">
-                          Staking in progress ! WEBpage is working :D{' '}
-                          <a href="https://t.co/N9jG0xwKBu">
-                            https://t.co/N9jG0xwKBu
-                          </a>
-                          <br />
-                          thnx{' '}
-                          <a href="https://twitter.com/BWYCDinals?ref_src=twsrc%5Etfw">
-                            @BWYCDinals
-                          </a>{' '}
-                          <a href="https://twitter.com/whales_token?ref_src=twsrc%5Etfw">
-                            @whales_token
-                          </a>{' '}
-                          <br />
-                          🚀🚀🚀🚀🚀🚀🚀🚀{' '}
-                          <a href="https://t.co/gyJWIYjfVP">
-                            pic.twitter.com/gyJWIYjfVP
-                          </a>
-                        </p>
-                        — Paul920 (@Pawel920){' '}
-                        <a href="https://twitter.com/Pawel920/status/1697127887554351530?ref_src=twsrc%5Etfw">
-                          August 31, 2023
-                        </a>
-                      </blockquote>{' '}
-                      <Script
-                        async={true}
-                        src="https://platform.twitter.com/widgets.js"
-                        charSet="utf-8"
-                      />
-                    </React.Fragment>
-                  </React.Fragment>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="home-client-list">
-          <div className="home-header7">
-            <h2 className="home-title3 heading">ROADMAP</h2>
+          <div className="home-header6">
+            <h2 className="home-title2 heading">ROADMAP</h2>
           </div>
           <div className="home-row">
             <span className="home-text23">2023 JULY</span>
@@ -512,7 +408,7 @@ const Home = (props) => {
       <footer className="home-footer">
         <div className="home-information">
           <div className="home-details12">
-            <div className="home-header8">
+            <div className="home-header7">
               <div className="home-branding2">
                 <img
                   alt="image"
@@ -542,8 +438,8 @@ const Home = (props) => {
             </button>
           </div>
           <div className="home-links2">
-            <span className="social">Discord</span>
-            <span className="social">Twitter</span>
+            <span className="home-social social">Discord</span>
+            <span className="home-social1 social">Twitter</span>
           </div>
         </div>
         <img
