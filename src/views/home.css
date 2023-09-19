@@ -1415,11 +1415,15 @@
   .home-text05 {
     display: none;
   }
+  .home-logo1 {
+    width: 115px;
+    height: 80px;
+  }
   .home-button2 {
     width: 100%;
     font-size: 16px;
     text-align: center;
-    border-radius: 40px;
+    border-radius: var(--dl-radius-radius-radius8);
   }
   .home-text10 {
     font-style: normal;
@@ -2103,7 +2107,7 @@
 }
 @media(max-width: 479px) {
   .home-navbar-interactive {
-    width: 301px;
+    width: 304px;
   }
   .home-logo {
     width: 83px;
@@ -2116,6 +2120,8 @@
     background-color: #4e4e4e;
   }
   .home-mobile-menu {
+    width: 387px;
+    height: 679px;
     padding: 16px;
   }
   .home-logo1 {
@@ -2129,7 +2135,10 @@
     font-weight: 500;
   }
   .home-button2 {
+    border-color: #ffffff;
+    border-width: 1px;
     border-radius: var(--dl-radius-radius-radius8);
+    background-color: rgba(254, 106, 5, 0.97);
   }
   .home-text10 {
     color: rgb(255, 255, 255);
@@ -2142,6 +2151,7 @@
     padding-bottom: 0px;
   }
   .home-header {
+    width: 478px;
     height: 408px;
     padding-bottom: 0px;
   }
@@ -2321,34 +2331,34 @@
     color: #000dff;
   }
   .home-statistic1 {
-    width: 149px;
+    width: 94px;
   }
   .home-sta03 {
-    color: #0020ff;
+    color: #10ff00;
   }
   .home-statistic2 {
-    width: 138px;
+    width: 119px;
   }
   .home-sta05 {
-    color: #003cff;
+    color: #ff8500;
   }
   .home-statistic3 {
-    width: 156px;
+    width: 86px;
   }
   .home-sta07 {
-    color: #001eff;
+    color: #ff0004;
   }
   .home-statistic4 {
     width: 143px;
   }
   .home-sta09 {
-    color: #0017ff;
+    color: #2cff00;
   }
   .home-statistic5 {
-    width: 153px;
+    width: 97px;
   }
   .home-sta11 {
-    color: #0017ff;
+    color: #ff7c00;
   }
   .home-icon14 {
     width: 28px;

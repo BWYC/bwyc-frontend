@@ -18,13 +18,13 @@
   }
 }
 @media(max-width: 479px) {
+  .link-root-class-name {
+    background-color: #565454;
+  }
   .link-root-class-name1 {
     background-color: #565454;
   }
   .link-root-class-name2 {
-    background-color: #565454;
-  }
-  .link-root-class-name {
     background-color: #565454;
   }
 }
