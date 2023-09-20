@@ -1,25 +1,20 @@
-import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import { ThirdwebProvider } from "@thirdweb-dev/react";
-import { CoreBlockchain } from "@thirdweb-dev/chains";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-import "./style.css";
-import Home from "./views/home";
-import Ordinals from "./views/ordinals";
-
-const activeChain = CoreBlockchain;
+import './style.css'
+import Home from './views/home'
+import NotFound from './views/not-found'
 
 const App = () => {
   return (
-    <ThirdwebProvider activeChain={activeChain}>
-      <Router>
-        <div>
-          <Route component={Home} exact path="/" />
-          <Route component={Ordinals} exact path="/ordinals" />
-        </div>
-      </Router>
-    </ThirdwebProvider>
-  );
-};
+    <Router>
+      <div>
+        <Route component={Home} exact path="/" />
+        <Route component={NotFound} path="**" />
+      </div>
+    </Router>
+  )
+}
 
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(<App />, document.getElementById('app'))

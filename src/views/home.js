@@ -1,18 +1,9 @@
-import React from "react";
+import React from 'react'
 
-import { Helmet } from "react-helmet";
+import { Helmet } from 'react-helmet'
 
-import Link from "../components/link";
-import "./home.css";
-import Ordinals from "./ordinals";
-import {
-  ThirdwebNftMedia,
-  useAddress,
-  useContract,
-  useMetamask,
-  useNFTs,
-  ConnectWallet,
-} from "@thirdweb-dev/react";
+import Link from '../components/link'
+import './home.css'
 
 const Home = (props) => {
   return (
@@ -38,24 +29,18 @@ const Home = (props) => {
                 <svg viewBox="0 0 1024 1024" className="home-icon">
                   <path d="M1024 590.444l-512-397.426-512 397.428v-162.038l512-397.426 512 397.428zM896 576v384h-256v-256h-256v256h-256v-384l384-288z"></path>
                 </svg>
-                <a href="/" className="home-text nav-link">
-                  HOME
-                </a>
+                <span className="home-text nav-link">HOME</span>
                 <svg viewBox="0 0 1024 1024" className="home-icon02">
                   <path d="M817.57 348.15c-193.566-143.858-260.266-259.018-305.566-348.148v0c-0.004 0-0.004-0.002-0.004-0.002v0.002c-45.296 89.13-112 204.292-305.566 348.148-330.036 245.286-19.376 587.668 253.758 399.224-17.796 116.93-78.53 202.172-140.208 238.882v37.744h384.032v-37.74c-61.682-36.708-122.41-121.954-140.212-238.884 273.136 188.446 583.8-153.94 253.766-399.226z"></path>
                 </svg>
-                <a href="#mint" className="home-text01 nav-link">
-                  WHALECARD
-                </a>
+                <span className="home-text01 nav-link">WHALECARD</span>
                 <svg
                   viewBox="0 0 760.0274285714286 1024"
                   className="home-icon04"
                 >
                   <path d="M666.857 365.714c7.429 76-24.571 121.714-74.857 147.429 83.429 20 136 69.714 125.714 181.143-13.143 138.857-116 176-263.429 184v145.714h-88v-143.429c-22.286 0-45.714 0-69.714-0.571v144h-88v-145.714c-20.571 0-41.143-0.571-62.286-0.571h-114.286l17.714-104.571c64.571 1.143 63.429 0 63.429 0 24.571 0 31.429-17.714 33.143-29.143v-229.714h9.143c-3.429-0.571-6.857-0.571-9.143-0.571v-164c-3.429-18.286-14.857-38.857-50.857-38.857 0 0 1.143-1.143-63.429 0v-93.714l121.143 0.571c17.714 0 36.571 0 55.429-0.571v-144h88v141.143c23.429-0.571 46.857-1.143 69.714-1.143v-140h88v144c113.143 9.714 202.857 44.571 212.571 148.571zM544 677.143c0-113.143-186.286-96.571-245.714-96.571v193.143c59.429 0 245.714 12.571 245.714-96.571zM503.429 405.143c0-103.429-155.429-88-205.143-88v175.429c49.714 0 205.143 11.429 205.143-87.429z"></path>
                 </svg>
-                <a href="#sats" className="home-text02 nav-link">
-                  ORDINALS
-                </a>
+                <span className="home-text02 nav-link">ORDINALS</span>
                 <svg
                   viewBox="0 0 1097.142857142857 1024"
                   className="home-icon06"
@@ -65,20 +50,14 @@ const Home = (props) => {
                 <span className="home-text03 nav-link">MEMBERS</span>
               </div>
             </a>
-            <ConnectWallet
-              style={{
-                backgroundColor: "black",
-                color: "white",
-                borderColor: "white",
-                border: "solid",
-              }}
-              theme="balck"
-            />
+            <button className="home-button start-button button">
+              <span className="home-text04">WHALE CONNECT</span>
+            </button>
           </div>
           <div data-thq="thq-burger-menu" className="home-burger-menu">
             <button className="home-button1 button">
               <img alt="image" src="/hamburger.svg" className="home-image" />
-              <span className="home-text05"></span>
+              <span className="home-text05">Start a project</span>
             </button>
           </div>
           <div data-thq="thq-mobile-menu" className="home-mobile-menu">
@@ -116,19 +95,11 @@ const Home = (props) => {
                     🎴WHALECARDS
                   </a>
                   <span className="nav-link">🐋MEMBERS</span>
-                  <a className="nav-link" href="/ordinals">
-                    🎭ORDINALS
-                  </a>
+                  <span className="nav-link">🎭ORDINALS</span>
                 </div>
-                <ConnectWallet
-                  style={{
-                    backgroundColor: "black",
-                    color: "white",
-                    borderColor: "white",
-                    border: "solid",
-                  }}
-                  theme="balck"
-                />
+                <button className="start-button button home-button2">
+                  <span className="home-text08">CONNECT</span>
+                </button>
               </div>
             </div>
           </div>
@@ -172,8 +143,6 @@ const Home = (props) => {
           join the club. 
         </p>
       </header>
-      <div id="sats"></div>
-      <Ordinals />
       <div className="home-video">
         <div className="home-container05">
           <button className="home-button3 start-button button">
@@ -203,12 +172,8 @@ const Home = (props) => {
             <div className="home-details">
               <div className="home-header2">
                 <div className="home-heading">
-                  <a
-                    href="https://stake.boredwhalesyachtclub.org"
-                    className="home-text10"
-                  >
-                    STAKE BWYC
-                  </a>
+                  <span className="home-text10">STAKE BWYC</span>
+                  <Link rootClassName="link-root-class-name"></Link>
                 </div>
                 <span className="home-text11">
                   <span className="home-text12">
@@ -223,20 +188,10 @@ const Home = (props) => {
               </div>
               <div className="home-tags">
                 <div className="home-container06">
-                  <a
-                    href="https://stake.boredwhalesyachtclub.org/stake"
-                    className="home-tag tag"
-                  >
-                    About Staking
-                  </a>
+                  <span className="home-tag tag">About Staking</span>
                 </div>
                 <div className="home-container07">
-                  <a
-                    href="https://app.youngparrotnft.com/core/launchpads/bwyc"
-                    className="home-tag1 tag"
-                  >
-                    MINT
-                  </a>
+                  <span className="home-tag1 tag">Strategy</span>
                 </div>
               </div>
             </div>
@@ -263,17 +218,10 @@ const Home = (props) => {
               </div>
               <div className="home-tags1">
                 <div className="home-container08">
-                  <a
-                    href="https://stake.boredwhalesyachtclub.org/stake2"
-                    className="home-tag tag"
-                  >
-                    About Staking
-                  </a>
+                  <span className="home-tag2 tag">About Cards</span>
                 </div>
                 <div className="home-container09">
-                  <a className="home-tag3 tag" href="#mint">
-                    MINT
-                  </a>
+                  <span className="home-tag3 tag">Strategy</span>
                 </div>
               </div>
             </div>
@@ -320,40 +268,32 @@ const Home = (props) => {
           </span>
         </div>
         <div className="home-statistics">
-          <span className="home-text20">STATS</span>
+          <span className="home-text20">stats</span>
           <div className="home-statistic-list">
             <div className="home-statistic">
-              <span className="home-sta">MINTED WHALES🐋</span>
-              <span className="home-sta01">4,503</span>
+              <span className="home-sta">MINTED WHALES</span>
+              <span className="home-sta01">4,501</span>
             </div>
             <div className="home-statistic1">
-              <span className="home-sta02">HOLDERS💎</span>
-              <span className="home-sta03">93</span>
+              <span className="home-sta02">HOLDERS</span>
+              <span className="home-sta03">92</span>
             </div>
             <div className="home-statistic2">
-              <span className="home-sta04">TRANSFERS⚡</span>
-              <span className="home-sta05">9,873</span>
+              <span className="home-sta04">TRANSFERS</span>
+              <span className="home-sta05">9,871</span>
             </div>
             <div className="home-statistic3">
-              <span className="home-sta06">CLAIMED CARDS🎴</span>
+              <span className="home-sta06">CLAIMED CARDS</span>
               <span className="home-sta07">804</span>
             </div>
             <div className="home-statistic4">
-              <span className="home-sta08">STAKED WHALES🐳</span>
+              <span className="home-sta08">STAKED WHALES</span>
               <span className="home-sta09">3,916</span>
             </div>
             <div className="home-statistic5">
-              <span className="home-sta10">$WHLS HOLDERS🚀</span>
+              <span className="home-sta10">$WHLS HOLDERS</span>
               <span className="home-sta11">69</span>
             </div>
-            <button className="home-button4 start-button button">
-              <a
-                href="https://scan.coredao.org/token/0x0c9d4b90771aca4b3e541924545e36104751dada"
-                className="home-text50"
-              >
-                VIEW ON CORESCAN
-              </a>
-            </button>
           </div>
         </div>
         <div className="home-container12">
@@ -373,7 +313,7 @@ const Home = (props) => {
               <div className="home-item service">
                 <div className="home-details03">
                   <span className="home-text22">Launchpad </span>
-                  <span className="home-text25">
+                  <span className="home-text23">
                     Community minting of 10000 whales on youngparrtot
                   </span>
                 </div>
@@ -444,10 +384,7 @@ const Home = (props) => {
               </div>
               <div className="home-item6 service">
                 <div className="home-details09">
-                  <a className="home-text35" href="#sats">
-                    Ordinals
-                  </a>
-
+                  <span className="home-text35">Ordinals</span>
                   <span className="home-text36">
                     BWYC will also cross chains to Bitcoin and allow Holders to
                     Inscribe Ordinals Numbers to metadata of EVM NFT. Like
@@ -542,7 +479,7 @@ const Home = (props) => {
         />
       </footer>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
